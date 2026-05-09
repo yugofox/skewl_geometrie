@@ -26,12 +26,11 @@ def cone_scanner(r, h):
     ax.plot([0, 0], [0, 0], [0, h], linestyle="--")
     ax.plot([r, 0], [0, 0], [0, h])
 
-    ax.set_title("SIGMA_SCAN: Kegel")
     ax.set_xlabel("X")
     ax.set_ylabel("Y")
     ax.set_zlabel("Z")
 
-    print("=== CONE SCANNER ===")
+    print("=== KEGEL SCANNER ===")
     print("")
     print("Radius r:", r, "cm")
     print("Höhe h:", h, "cm")
